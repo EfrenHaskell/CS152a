@@ -1,0 +1,7 @@
+p {
+    font-size: 20;
+    background-color: rgb(222, 221, 221);
+    padding: 20;
+    border-radius: 2mm 2mm;
+    box-shadow: 0 5px 10px darkgray;
+}
