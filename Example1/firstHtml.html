@@ -3,20 +3,44 @@
         <title>My first web page</title>
         <meta charset="UTF-8">
         <link href="styles.css" rel="stylesheet">
+        <link href="scripts.js" rel="scripts">
     </head>
     <body>
-        <p>Below if an example of a paragraph element</p>
-        <p>This is the paragraph.<br>
-            Paragraphs are very cool.<br>
-            We very much like paragraphs.<br>
-        </p>
-        <br>
-        <p>Below if an example of an image element that also functions as a link to our second page</p>
-        <a href ="secondpage.html">
-            <img src = "thought_bubble.png" height="30%" width="40%" alt = "A cool picture">
-        </a>
-        <br>
-        <p>Below if a basic link which will take us to our third page</p>
-        <a href ="thirdpage.html">Cool Page</a>
+        <header><h1>Page 1</h1></header>
+        <nav>
+            <a class="current">First Page</a>
+            <a href="secondpage.html">Second Page</a>
+            <a href="thirdpage.html">Third Page</a>
+        </nav>
+        <section>
+            <article>
+                <p>Below is an example of a paragraph element</p>
+                <p>This is the paragraph.<br>
+                    Paragraphs are very cool.<br>
+                    We very much like paragraphs.<br>
+                </p>
+                <hr>
+                <br>
+                <p>Below is an example of an image element that also functions as a link to our second page</p>
+                <a href ="secondpage.html">
+                    <img src = "thought_bubble.png" height="50px" width="50px" alt = "A cool picture">
+                </a>
+                <hr>
+                <br>
+                <p>Below is a basic link which will take us to our third page</p>
+                <a href ="thirdpage.html">Cool Page</a>
+            </article>
+        </section>
+        <aside>
+            <p class="sidepanel">The examples on the left display the basic usage of multiple html elements such as paragraphs, headers, images and links
+                Here is an example of an aside in a flexbox. This allows for text to be placed on the side of your webpage.
+                This flexbox is also in a paragraph element which uses css styling to produce a background box and shadow.
+                All styles can be accessed through the styles.css page. Below is a picture because I wanted something to take up space.
+                <img src="thefaces.png" alt="faces picture" height="400px" class="center" width="250px"> 
+            </p>
+        </aside>
+        <footer>
+            <a class="footercontent">Efren Haskell efrenhask@brandeis.edu<br>Copyright @2023</a>
+        </footer>
     </body>
 </html>

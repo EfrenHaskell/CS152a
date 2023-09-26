@@ -5,3 +5,87 @@ p {
     border-radius: 2mm 2mm;
     box-shadow: 0 5px 10px darkgray;
 }
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+header {
+    background-color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    overflow: hidden;
+    background-color: lightblue;
+}
+
+nav a {
+    float: left;
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(149, 185, 198);
+}
+
+.current {
+    float: left;
+    display:block;
+    color: white;
+    background-color: rgb(149, 185, 198);
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+section {
+    float:left;
+    padding: 20 px;
+    width: 60%;
+}
+
+
+section article {
+    width:100%;
+}
+
+aside {
+    display: flex;
+    float: left;
+    width: 40%;
+}
+
+footer {
+    bottom: 0;
+    width:100%;
+    clear: both;
+    background-color:lightgrey;
+    padding:10px;
+    text-align:center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.sidepanel {
+    font-size: 20;
+    background-color: lightblue;
+    padding: 20;
+    border-radius: 0%;
+    box-shadow: 0 5px 10px darkgray;
+}
+
+.clickable:hover {
+    background-color: rgb(188, 185, 185);
+    cursor:pointer;
+}

@@ -5,76 +5,115 @@
         <link href="styles.css" rel="stylesheet">
     </head>
     <body>
-        <p>Example of Definition Block</h1>
-        <dl>
-            <dt>newbie</dt>
-            <dd>one who does not have mad skills</dd>
-            <dt>own</dt>
-            <dd>to defeat soundly</dd>
-            <dt>frag</dt>
-            <dd>to get a kill in a shooting game</dd>
-        </dl>
-        <br>
-        <p>Example of Table with normal columns and rows</p>
-        <table border="1px">
-            <caption>Store Catalog</caption>
-            <tr>
-                <th>ID</th>
-                <th>Item Name</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Shirt</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Pants</td>
-            </tr>
-        </table>
-        <br>
-        <p>Example of Table with merged columns and rows</p>
-        <table border="1px">
-            <tr>
-                <th>Column 1</th>
-                <th>Column 2</th>
-                <th>Column 3</th>
-            </tr>
-            <tr>
-                <td colspan="2">1,1-1,2</td>
-                <td colspan="3">1,3-3,3</td>
-            </tr>
-            <tr>
-                <td>2,1</td>
-                <td>2,2</td>
-            </tr>
-            <tr>
-                <td>3,1</td>
-                <td>3,2</td>
-            </tr>
-        </table>
-        <br>
-        <p>Example of an Ordered and Unordered list</p>
-        <h2>This semester's courses</h2>
-        <ol>
-            <li>CS101A</li>
-            <li>CS114A</li>
-            <li>CS152A</li>
-            <li>CS29A</li>
-            <ul>
-                <li>Conditional Statements</li>
-                <li>Parse Trees</li>
-            </ul>
-            <li>Phil131A</li>
-        </ol>
-        <br>
-        <p>Example of a Form element</p>
-        <form action = "/" method = "post">
-            <h2>Login</h2>
-            <label for="user">Username:</label><br>
-            <input type="text" id = "user"><br>
-            <label for="pwd">Password:</label><br>
-            <input type="password" id = "pwd"><br>
-            <input type="submit">
-        </form>
+        <header><h1>Page 3</h1></header>
+        <nav>
+            <a href="firstHtml.html">First Page</a>
+            <a href="secondpage.html">Second Page</a>
+            <a class="current">Third Page</a>
+        </nav>
+        <section>
+            <p>Example of Definition Block</h1>
+            <dl>
+                <dt>newbie</dt>
+                <dd>one who does not have mad skills</dd>
+                <dt>own</dt>
+                <dd>to defeat soundly</dd>
+                <dt>frag</dt>
+                <dd>to get a kill in a shooting game</dd>
+            </dl>
+            <hr>
+            <br>
+            <p>Example of Table with normal columns and rows</p>
+            <table border="1px">
+                <caption>Store Catalog</caption>
+                <tr>
+                    <th>ID</th>
+                    <th>Item Name</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Shirt</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Pants</td>
+                </tr>
+            </table>
+            <hr>
+            <br>
+            <p>Example of Table with merged columns and rows</p>
+            <table border="1px">
+                <tr>
+                    <th>Column 1</th>
+                    <th>Column 2</th>
+                    <th>Column 3</th>
+                </tr>
+                <tr>
+                    <td colspan="2">1,1-1,2</td>
+                    <td colspan="3">1,3-3,3</td>
+                </tr>
+                <tr>
+                    <td>2,1</td>
+                    <td>2,2</td>
+                </tr>
+                <tr>
+                    <td>3,1</td>
+                    <td>3,2</td>
+                </tr>
+            </table>
+            <hr>
+            <br>
+            <p>Example of an Ordered and Unordered list</p>
+            <h2>This semester's courses</h2>
+            <ol>
+                <li>CS101A</li>
+                <li>CS114A</li>
+                <li>CS152A</li>
+                <li>CS29A</li>
+                <ul>
+                    <li>Conditional Statements</li>
+                    <li>Parse Trees</li>
+                </ul>
+                <li>Phil131A</li>
+            </ol>
+            <hr>
+            <br>
+            <p>Example of a Form element</p>
+            <form action = "/" method = "post">
+                <h2>Login</h2>
+                <label for="user">Username:</label><br>
+                <input type="text" id = "user"><br>
+                <label for="pwd">Password:</label><br>
+                <input type="password" id = "pwd"><br>
+                <input type="submit">
+            </form>
+            <form action = "/" method = "post">
+                <h2>Sign Up</h2>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name"><br>
+                <label for="email">Email:</label>
+                <input type="text" id="email"><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password"><br>
+                <label for="gender">Gender:</label>
+                <label for="gender">Male</label>
+                <input type="radio" id="gender_male">
+                <label for="gender">Female</label>
+                <input type="radio" id="gender_female">
+                <label for="gender">Other</label>
+                <input type="radio" id="gender_other">
+                <br>
+                <label for="interests">Interests:</label><br>
+                <input type="checkbox" id="interests_sports"><label for="interests">Sports</label><br>
+                <input type="checkbox" id="interests_music"><label for="interests">Music</label><br>
+                <input type="checkbox" id="interests_dance"><label for="interests">Dance</label><br>
+                <input type="checkbox" id="interests_art"><label for="interests">Art</label><br>
+                <input type="submit">
+                <input type="reset">
+            </form>
+        </section>
+        <footer>
+            <a class="footercontent">Efren Haskell efrenhask@brandeis.edu<br>Copyright @2023</a>
+        </footer>
     </body>
 </html>
